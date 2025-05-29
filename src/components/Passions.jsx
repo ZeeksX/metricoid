@@ -7,7 +7,7 @@ const Passions = () => {
         { name: 'AI & Machine Learning', },
     ]
   return (
-     <div className='flex flex-col items-center justify-center gap-4'>
+     <div id="passions" className='flex flex-col items-center justify-center gap-4'>
             <div className='flex flex-col items-center'>
                 <h1 className='text-2xl font-medium'>Passions</h1>
                 <p className='text-base font-normal italic'>See some of my passions:</p>

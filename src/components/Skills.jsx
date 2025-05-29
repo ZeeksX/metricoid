@@ -11,7 +11,7 @@ const Skills = () => {
         { name: 'Tailwind CSS', },
         { name: 'Node.js' }]
     return (
-        <div className='flex flex-col items-center justify-center gap-4'>
+        <div id="skills" className='flex flex-col items-center justify-center gap-4'>
             <div className='flex flex-col items-center'>
                 <h1 className='text-2xl font-medium'>Skills</h1>
                 <p className='text-base font-normal italic'>Here are some of the technologies I have worked with:</p>

@@ -9,7 +9,7 @@ const Hobbies = () => {
     { name: 'Watching and playing football', }
   ]
   return (
-    <div className='mt-10 flex flex-col items-center w-full justify-center p-10 gap-12'>
+    <div id="hobbies" className='mt-10 flex flex-col items-center w-full justify-center p-10 gap-12'>
         <div className='flex flex-col items-center justify-center gap-4'>
             <h1 className='text-2xl font-medium'>Hobbies & Interests</h1>
             <p className='text-base font-normal text-italic'>Here are some of my hobbies and interests:</p>

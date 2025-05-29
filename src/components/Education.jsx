@@ -6,7 +6,7 @@ const Education = () => {
         { degree: 'High School Diploma', institution: 'Babington Macaulay Junior Seminary', year: '2015 - 2021' }
     ]
     return (
-        <div className='mt-10 flex flex-col items-center w-full justify-center p-10 gap-12'>
+        <div id="education" className='mt-10 flex flex-col items-center w-full justify-center p-10 gap-12'>
             <div className='flex flex-col items-center justify-center gap-4'>
                 <h1 className='text-2xl font-medium'>Academic Background</h1>
             </div>

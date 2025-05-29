@@ -8,12 +8,12 @@ const Navbar = () => {
         </div>
         <div className='flex items-center justify-center'>
             <ul className='flex space-x-4'>
-                <li className='text-gray-700 hover:text-blue-500 cursor-pointer'>About me</li>
-                <li className='text-gray-700 hover:text-blue-500 cursor-pointer'>Skills</li>
-                <li className='text-gray-700 hover:text-blue-500 cursor-pointer'>Hobbies</li>
-                <li className='text-gray-700 hover:text-blue-500 cursor-pointer'>Academic Background</li>
-                <li className='text-gray-700 hover:text-blue-500 cursor-pointer'>Work Experience</li>
-                <li className='text-gray-700 hover:text-blue-500 cursor-pointer'>Certifications</li>
+                <li className='text-gray-700 hover:text-blue-500 cursor-pointer'><a href='#about'>About me</a></li>
+                <li className='text-gray-700 hover:text-blue-500 cursor-pointer'><a href='#skills'>Skills</a></li>
+                <li className='text-gray-700 hover:text-blue-500 cursor-pointer'><a href='#hobbies'>Hobbies</a></li>
+                <li className='text-gray-700 hover:text-blue-500 cursor-pointer'><a href='#passions'>Passions</a></li>
+                <li className='text-gray-700 hover:text-blue-500 cursor-pointer'><a href='#education'>Academic Background</a></li>
+             
             </ul>
         </div>
     </div>
